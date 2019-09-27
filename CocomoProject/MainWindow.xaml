@@ -1,0 +1,30 @@
+﻿<Window x:Class="CocomoProject.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CocomoProject"
+        mc:Ignorable="d"
+        Title="COCOMO Project" Height="263" Width="478" Background="#FFFFDEE3" ResizeMode="CanMinimize">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="56*"/>
+            <ColumnDefinition Width="461*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock HorizontalAlignment="Left" Margin="28,20,0,0" TextWrapping="Wrap" Text="Тип проекту" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+        <ComboBox Name="comboBoxProjectType" SelectedIndex="0" HorizontalAlignment="Left" Margin="28,49,0,0" VerticalAlignment="Top" Width="120" Grid.ColumnSpan="2">
+            <TextBlock>Organic</TextBlock>
+            <TextBlock>Semi-detached</TextBlock>
+            <TextBlock>Embedded</TextBlock>
+        </ComboBox>
+        <Button Name="GetInfoBtn" Content="Розрахувати" HorizontalAlignment="Left" Margin="28,192,0,0" VerticalAlignment="Top" Width="75" Click="GetInfoBtn_Click" Grid.ColumnSpan="2"/>
+        <TextBlock Name="EffortSize" HorizontalAlignment="Left" Margin="319,55,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Grid.Column="1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="28,91,0,0" TextWrapping="Wrap" Text="Кількість рядків коду (тисяч):" VerticalAlignment="Top" Width="120" Grid.ColumnSpan="2"/>
+        <TextBox Name="txtCodeSize" HorizontalAlignment="Left" Height="23" Margin="28,136,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" KeyDown="txtCodeSize_KeyDown_1" Grid.ColumnSpan="2"/>
+        <TextBlock FontWeight="Bold" HorizontalAlignment="Left" Margin="213,55,0,0" TextWrapping="Wrap" Text="Трудомісткість:" VerticalAlignment="Top" Grid.Column="1"/>
+        <TextBlock FontWeight="Bold"  HorizontalAlignment="Left" Margin="213,91,0,0" TextWrapping="Wrap" Text="Час розробки:" VerticalAlignment="Top" Grid.Column="1"/>
+        <TextBlock Name="Time" HorizontalAlignment="Left" Margin="319,91,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Grid.Column="1"/>
+        <TextBlock FontWeight="Bold" HorizontalAlignment="Left" Margin="213,123,0,0" TextWrapping="Wrap" Text="Розробників:" VerticalAlignment="Top" Grid.Column="1"/>
+        <TextBlock Name="DevNumber" HorizontalAlignment="Left" Margin="319,123,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Grid.Column="1"/>
+    </Grid>
+</Window>

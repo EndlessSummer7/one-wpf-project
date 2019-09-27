@@ -1,0 +1,15 @@
+D:\Projects\CocomoProject\CocomoProject\bin\Debug\CocomoProject.exe.config
+D:\Projects\CocomoProject\CocomoProject\bin\Debug\CocomoProject.exe
+D:\Projects\CocomoProject\CocomoProject\bin\Debug\CocomoProject.pdb
+D:\Projects\CocomoProject\CocomoProject\obj\Debug\CocomoProject.csprojResolveAssemblyReference.cache
+D:\Projects\CocomoProject\CocomoProject\obj\Debug\MainWindow.g.cs
+D:\Projects\CocomoProject\CocomoProject\obj\Debug\App.g.cs
+D:\Projects\CocomoProject\CocomoProject\obj\Debug\CocomoProject_MarkupCompile.cache
+D:\Projects\CocomoProject\CocomoProject\obj\Debug\CocomoProject_MarkupCompile.lref
+D:\Projects\CocomoProject\CocomoProject\obj\Debug\MainWindow.baml
+D:\Projects\CocomoProject\CocomoProject\obj\Debug\CocomoProject.g.resources
+D:\Projects\CocomoProject\CocomoProject\obj\Debug\CocomoProject.Properties.Resources.resources
+D:\Projects\CocomoProject\CocomoProject\obj\Debug\CocomoProject.csproj.GenerateResource.Cache
+D:\Projects\CocomoProject\CocomoProject\obj\Debug\CocomoProject.csproj.CoreCompileInputs.cache
+D:\Projects\CocomoProject\CocomoProject\obj\Debug\CocomoProject.exe
+D:\Projects\CocomoProject\CocomoProject\obj\Debug\CocomoProject.pdb
